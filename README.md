@@ -1,32 +1,29 @@
-# React + TypeScript + Vite
+# Тестовое задание ZalogHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Junior Frontend Developer · React + TypeScript
 
-Currently, two official plugins are available:
+Сделайте простой список задач на React + TypeScript. Для создания проекта используйте Vite. Ориентировочное время выполнения — 30–60 минут.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# **Что должно работать**
 
-## React Compiler
+1. Добавление задачи через поле ввода и кнопку.
+2. Переключение задачи между выполненной и невыполненной.
+3. Удаление задачи.
+4. Фильтрация: все, активные, выполненные.
+5. Сохранение задач в localStorage: после обновления страницы они должны оставаться.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Пустую задачу или задачу из одних пробелов добавить нельзя. Выполненные задачи должны визуально отличаться от активных.
 
-## Expanding the Oxlint configuration
+# **Оформление и инструменты**
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+Оформление свободное: достаточно простого и аккуратного интерфейса. Дополнительные библиотеки необязательны. Сервер и подключение к API не нужны.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+  
+## Запуск  
+  
+npm install  
+npm run dev  
+  
+## Время  
+  
+~60 минут
